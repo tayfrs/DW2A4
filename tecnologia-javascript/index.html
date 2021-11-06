@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  </head>
+  <body>
+      <div id='app'>
+        <span v-if=isUnderAge>Você precisa ser maior de 18 anos</span>
+        <span v-else-if='isOld'>Você é muito velho para beber</span>
+        <template v-else>
+            <span>Veja os itens:</span>
+            <ul>
+                <li>Black Label</li>
+                <li>Chivas</li>
+            </ul>   
+            <ul>
+              <li v-for="user in adultUsers">
+                  {{adultUsers}}
+              </li>
+          </ul> 
+        </template>
+      </div>
+      
+    <script src="script.js"></script>
+  </body>
+</html>
