@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "name": "Projeto de DW",
+      "budget": "10000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 2000,
+      "services": [
+        {
+          "name": "desenvolvedor front",
+          "cost": "2000",
+          "description": "Ira fazer o front end",
+          "id": "1fc377c9-858e-430b-b564-206a133ec3d1"
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
