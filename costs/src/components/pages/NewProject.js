@@ -1,7 +1,7 @@
 //import {useHistory} from 'react-router-dom'
 import {useNavigate} from 'react-router-dom';
 import ProjectForm from '../project/ProjectForm'
-import styles from '../NewProject.module.css'
+import styles from './NewProject.module.css'
 import React from 'react'
 
 function NewProject(){
