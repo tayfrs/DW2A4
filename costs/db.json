@@ -7,16 +7,123 @@
         "id": "3",
         "name": "Design"
       },
-      "cost": 2000,
+      "cost": 2400,
       "services": [
         {
           "name": "desenvolvedor front",
           "cost": "2000",
           "description": "Ira fazer o front end",
           "id": "1fc377c9-858e-430b-b564-206a133ec3d1"
+        },
+        {
+          "name": "tela do aplicativo",
+          "cost": "400",
+          "description": "Tela",
+          "id": "f31c3663-eb24-4566-ab9c-b72665e56444"
         }
       ],
       "id": 3
+    },
+    {
+      "name": "Projeto de Redes",
+      "budget": "8000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 4000,
+      "services": [
+        {
+          "name": "Cabeamento",
+          "cost": "3000",
+          "id": "aee0db08-3bfb-409e-8fed-88f56c9a3877"
+        },
+        {
+          "name": "Telas",
+          "cost": "1000",
+          "description": "Telas de instalação",
+          "id": "2d8bdf64-9ce9-4e13-9ae6-32b524b2519d"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "projeto de Banco",
+      "budget": "10000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 7000,
+      "services": [
+        {
+          "name": "Modelo conceitual",
+          "cost": "3000",
+          "description": "conceito",
+          "id": "71374216-35b7-4931-8b53-4f3a4947bbdf"
+        },
+        {
+          "name": "Modelo logico",
+          "cost": "4000",
+          "description": "epresenta as estruturas de dados a serem implementadas e suas características considerando os limites impostos pelo modelo",
+          "id": "37c88579-17c3-4108-b90e-6b030062372c"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "Projeto de engenharia",
+      "budget": "1000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Especificações técnicas",
+          "cost": "100",
+          "description": "especificação",
+          "id": "8403187f-9388-4a23-99ab-38567a1418e3"
+        },
+        {
+          "name": "Materiais utilizados e suas equivalências",
+          "cost": "100",
+          "description": "Materiais",
+          "id": "3d248c69-24a3-49fd-8272-8a79bbc53322"
+        },
+        {
+          "name": "Misturas e controle de receitas",
+          "cost": "100",
+          "description": "Mistura",
+          "id": "06be35e8-93df-49b8-9ccc-dbf6b492ee52"
+        },
+        {
+          "name": "Modelos",
+          "cost": "100",
+          "description": "Modelos",
+          "id": "3ff12dfd-7073-48d7-9ff1-ffc3caa60a78"
+        },
+        {
+          "name": "Roteiro produtivo",
+          "cost": "300",
+          "description": "Roteiro",
+          "id": "0c316a8f-42eb-40f8-a816-c3114ad0325e"
+        },
+        {
+          "name": "Consumo da matéria-prima nos estágios produtivos",
+          "cost": "200",
+          "description": "consumo",
+          "id": "1a6d7f26-91d0-4c42-a242-0d5f585d1133"
+        },
+        {
+          "description": "Política de perdas e projeção de resíduos",
+          "cost": "100",
+          "name": "Política",
+          "id": "7fa444db-5cab-43c9-84ce-c4ab729795c9"
+        }
+      ],
+      "id": 6
     }
   ],
   "categories": [
